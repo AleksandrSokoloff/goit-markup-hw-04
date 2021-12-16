@@ -162,7 +162,8 @@ img {
   margin-bottom: 0;
   min-height: 600px;
   min-width: 1600px;
-  background-image: url(../img/hero-image.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/hero-image.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -693,8 +694,8 @@ footer .container {
 }
 
 .join-text {
-  font-weight: 7000;
-  font-style: 14px;
+  font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--first-title-color);
